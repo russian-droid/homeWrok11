@@ -11,3 +11,17 @@ basic_op('*', 5, 5)         # Output: 25
 basic_op('/', 49, 7)        # Output: 7 
 """
 
+def basic_op(operator, value1, value2):
+
+    if operator == '+':
+        res = value1 + value2
+    elif operator == '-':
+        res = value1 - value2
+    elif operator == '*':
+        res = value1 * value2
+    elif operator == '/':
+        res = value1 / value2
+    else:
+        print('Sorry, this is an incorrect entry')
+        res = None
+    return res
