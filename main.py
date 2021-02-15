@@ -27,6 +27,7 @@ def basic_op(operator, value1, value2):
     return res
 
 #-------------------
+
 #someone else's more effeciant way
 
 def basic_op(operator, value1, value2):
